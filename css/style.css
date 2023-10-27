@@ -5,17 +5,52 @@ body {
   background-image: url(../img/pexels-aries-nha-105377.jpg);
   height: 900px;
 }
-.main-content {
-  transform: translateY(50%);
-}
+
 .i-one {
   width: 30px;
   height: 30px;
   border-radius: 50%;
 }
+.menu {
+  background-color: #161313;
+}
+.menu-list ul li a {
+  color: #fff;
+}
+.menu-list {
+  color: #fff;
+}
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 474px) {
+  .first-div a {
+    color: #fff;
+    font-family: "Poppins";
+    font-size: 20.936px;
+    font-style: normal;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  .first-div span {
+    color: #f44a4a;
+  }
+  .second-div ul li a {
+    text-decoration: none;
+    color: var(--neutral-0-white, #fff);
+    font-family: "Inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1;
+  }
+  .last-list ul li a {
+    text-decoration: none;
+    color: var(--neutral-0-white, #fff);
+    font-family: "Inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+  }
   .main-content h5 {
     color: #fff;
     text-align: center;
@@ -229,7 +264,7 @@ body {
     margin-bottom: 60px;
   }
   .iphone {
-    width: 632px;
+    width: 100%;
     /* height: 376px; */
     flex-shrink: 0;
     background: url(<path-to-image>),
@@ -411,6 +446,14 @@ body {
     font-style: normal;
     font-weight: 500;
     line-height: 140%;
+    text-align: center;
+  }
+  .footer ul {
+    text-align: center;
+  }
+  .download-btn {
+    display: flex;
+    justify-content: center;
   }
 }
 /* // Medium devices (tablets, 768px and up) */
@@ -419,6 +462,100 @@ body {
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  .first-div a {
+    color: #fff;
+    font-family: "Poppins";
+    font-size: 20.936px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+  }
+  .first-div span {
+    color: #f44a4a;
+  }
+  .second-div ul li a {
+    text-decoration: none;
+    color: var(--neutral-0-white, #fff);
+    font-family: "Inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    margin: 0 20px;
+  }
+  .last-list ul li a {
+    text-decoration: none;
+    color: var(--neutral-0-white, #fff);
+    font-family: "Inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+  }
+  .Countries {
+    text-decoration: none;
+    color: var(--neutral-0-white, #fff);
+    font-family: "Inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+  }
+  .offcanvas-title {
+    color: #fff;
+  }
+
+  /* .first {
+    margin-top: 22px;
+  }
+  .first a {
+    color: #fff;
+    font-family: "Poppins";
+    font-size: 20.936px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 22px;
+    text-decoration: none;
+  }
+  .first span {
+    color: #f44a4a;
+  }
+  .mid-list ul {
+    list-style: none;
+    display: inline-flex;
+    margin: 0;
+  }
+  .mid-list ul li a {
+    text-decoration: none;
+    color: var(--neutral-0-white, #fff);
+    font-family: "Inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    margin: 0 20px;
+  }
+  .last-list ul {
+    list-style: none;
+    display: inline-flex;
+    margin: 0;
+  }
+  .last-list ul li a {
+    text-decoration: none;
+    color: var(--neutral-0-white, #fff);
+    font-family: "Inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    margin: 0 20px;
+  }
+  .coun {
+    transform: translatex(30px);
+  } */
+
   .main-content h5 {
     color: var(--neutral-0-white, #fff);
     font-size: 72px;
@@ -802,11 +939,12 @@ body {
     color: var(--text-secondary-text, #808080);
 
     /* Font Website/Body 2/Medium */
-    font-family: Inter;
+    font-family: "Inter";
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
     line-height: 140%; /* 25.2px */
+    text-align: start;
   }
 }
 
