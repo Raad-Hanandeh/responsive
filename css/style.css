@@ -462,13 +462,16 @@ body {
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  .navbar {
+    height: 100px;
+  }
   .first-div a {
     color: #fff;
     font-family: "Poppins";
     font-size: 20.936px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;
+    /* line-height: normal; */
     text-decoration: none;
   }
   .first-div span {
@@ -481,7 +484,7 @@ body {
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
-    line-height: 140%;
+    line-height: 1;
     margin: 0 20px;
   }
   .last-list ul li a {
@@ -491,7 +494,7 @@ body {
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
-    line-height: 140%;
+    /* line-height: 140%; */
   }
   .Countries {
     text-decoration: none;
@@ -500,7 +503,7 @@ body {
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
-    line-height: 140%;
+    /* line-height: 140%; */
   }
   .offcanvas-title {
     color: #fff;
