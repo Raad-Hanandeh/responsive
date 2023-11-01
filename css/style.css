@@ -1,9 +1,13 @@
 body {
   font-family: "Inter", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
+
 .main {
-  background-image: url(../img/pexels-aries-nha-105377.jpg);
-  height: 900px;
+  background-image: url(../img/back\ packages.png);
+  height: 750px;
+  background-size: cover;
+  background-position: top;
 }
 
 .i-one {
@@ -19,6 +23,10 @@ body {
 }
 .menu-list {
   color: #fff;
+}
+header {
+  height: 100px;
+  margin-bottom: 58px;
 }
 
 /* // Small devices (landscape phones, 576px and up) */
@@ -50,6 +58,9 @@ body {
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
+  }
+  .align-a {
+    margin-top: 5px;
   }
   .main-content h5 {
     color: #fff;
@@ -255,13 +266,16 @@ body {
     background: #ff626a;
     color: #fff;
     text-align: center;
-    font-family: Inter;
+    font-family: "Inter";
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 140%;
     border: 1px solid #ed4d55;
     margin-bottom: 60px;
+  }
+  .div-our-btn {
+    text-align: center;
   }
   .iphone {
     width: 100%;
@@ -280,11 +294,11 @@ body {
 
   .text-iphone h5 {
     color: #fff;
+    font-family: "Inter";
     font-size: 28px;
     font-style: normal;
     font-weight: 600;
-    line-height: 140%;
-    width: 278px;
+    padding-top: 32px;
   }
   .text-iphone p {
     color: #fafafa;
@@ -462,9 +476,11 @@ body {
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  .navbar {
-    height: 100px;
+  .container.align {
+    align-items: normal;
+    margin-top: 15px;
   }
+
   .first-div a {
     color: #fff;
     font-family: "Poppins";
@@ -487,6 +503,13 @@ body {
     line-height: 1;
     margin: 0 20px;
   }
+  .second-div ul {
+    margin-top: 0;
+    /* margin-bottom: 313px; */
+  }
+  .second-div ul li {
+    margin: 0;
+  }
   .last-list ul li a {
     text-decoration: none;
     color: var(--neutral-0-white, #fff);
@@ -495,6 +518,9 @@ body {
     font-style: normal;
     font-weight: 500;
     /* line-height: 140%; */
+  }
+  .align-a {
+    margin-top: 1px;
   }
   .Countries {
     text-decoration: none;
@@ -770,12 +796,11 @@ body {
   }
   .text-iphone h5 {
     color: var(--neutral-0-white, #fff);
-    width: 416px;
+    font-family: "Inter";
     font-size: 48px;
     font-style: normal;
     font-weight: 600;
-    line-height: 140%;
-    margin-bottom: 32px;
+    padding-top: 53px;
   }
   .text-iphone p {
     color: var(--neutral-0-white, #fff);
