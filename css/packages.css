@@ -1458,11 +1458,17 @@ body {
     font-weight: 700;
     line-height: normal;
   }
-  i {
-    margin: 0 10px;
-    width: 34px;
-    height: 34px;
+  .footer-icon {
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
+    color: #fff;
+  }
+  .iicon {
+    margin: 0 10px;
+  }
+  .iiicon {
+    margin-right: 10px;
   }
   hr {
     margin-top: 52px;
@@ -2164,12 +2170,7 @@ body {
     font-weight: 700;
     line-height: normal;
   }
-  i {
-    margin: 0 10px;
-    width: 34px;
-    height: 34px;
-    border-radius: 50%;
-  }
+
   hr {
     margin-top: 52px;
     margin-bottom: 32px;
@@ -2194,5 +2195,17 @@ body {
     font-style: normal;
     font-weight: 500;
     line-height: 140%;
+  }
+  .footer-icon {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    color: #fff;
+  }
+  .iicon {
+    margin: 0 10px;
+  }
+  .iiicon {
+    margin-right: 10px;
   }
 }
