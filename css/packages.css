@@ -8,6 +8,15 @@ body {
   background-size: cover;
   background-position: top;
 }
+.menu {
+  background-color: #161313;
+}
+.menu-list ul li a {
+  color: #fff;
+}
+.menu-list {
+  color: #fff;
+}
 
 /* mobile*/
 /* mobile*/
@@ -15,14 +24,6 @@ body {
 /* mobile*/
 /* mobile*/
 @media (max-width: 407px) {
-}
-
-/* // Medium devices (tablets, 768px and up) */
-/* // Medium devices (tablets, 768px and up) */
-/* // Medium devices (tablets, 768px and up) */
-/* // Medium devices (tablets, 768px and up) */
-/* // Medium devices (tablets, 768px and up) */
-@media (min-width: 408px) {
   .first-div {
     color: var(--neutral-0-white, #fff);
     font-family: "Poppins";
@@ -108,7 +109,7 @@ body {
     font-weight: 500;
     line-height: 140%;
   }
-  /*travel style responsive************************************/
+  /***********************************************travel style responsive************************************/
   .travel-style h5 {
     color: #000;
     text-align: center;
@@ -130,7 +131,8 @@ body {
     margin-bottom: 32px;
   }
   .stylee {
-    margin-left: 10px;
+    display: flex;
+    justify-content: center;
   }
   .img-one {
     width: 160px;
@@ -151,13 +153,14 @@ body {
   .text-img-one {
     color: #fff;
     font-family: "Inter";
-    font-size: 18px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 140%;
     text-align: center;
-    margin-top: 121px;
+    margin-top: 148px;
   }
+
   .img-tow {
     width: 160px;
     height: 180px;
@@ -335,6 +338,7 @@ body {
     font-style: normal;
     font-weight: 600;
     line-height: 140%;
+    text-align: center;
   }
   .cheap p {
     color: var(--text-secondary-text, #808080);
@@ -402,6 +406,18 @@ body {
       url(../img/cheap\ 1.png), lightgray 50% / cover no-repeat;
     margin: 8px 8px;
   }
+  .div-cheap-one a {
+    text-decoration: none;
+  }
+  .div-cheap-tow a {
+    text-decoration: none;
+  }
+  .div-cheap-three a {
+    text-decoration: none;
+  }
+  .div-cheap-four a {
+    text-decoration: none;
+  }
 
   .text-cheap p {
     color: var(--neutral-0-white, #fff);
@@ -421,6 +437,7 @@ body {
   }
   .text-cheap {
     margin-top: 160px;
+    margin-left: 2px;
   }
   .div-cheap-tow {
     width: 160px;
@@ -461,6 +478,10 @@ body {
       url(../img/cheap\ 4.png) lightgray 50% / cover no-repeat;
     margin: 8px 8px;
   }
+  .distination {
+    display: flex;
+    justify-content: center;
+  }
 
   /**********************************discount************************************************************/
   .discount {
@@ -478,6 +499,7 @@ body {
       url(../img/discont\ 1.png), lightgray 0px -0.203px / 100% 100.383%;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 60px;
   }
   .div-dis h5 {
     color: var(--neutral-0-white, #fff);
@@ -494,7 +516,7 @@ body {
     font-style: normal;
     font-weight: 500;
     line-height: 140%;
-    margin-bottom: 26px;
+    margin-bottom: 50px;
   }
   .div-dis button {
     display: inline-flex;
@@ -515,11 +537,958 @@ body {
     border: 1px solid #ed4d55;
   }
   .div-dis {
-    text-align: center;
+    display: flex;
+    justify-content: center;
   }
   .text-div-dis {
-    margin-right: 121px;
-    margin-top: 40px;
+    margin-top: 80px;
+  }
+  /*************************************************compare*********************************************************/
+  .compare h5 {
+    color: var(--text-main-text, #121212);
+    font-family: "Inter";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+  }
+  .compare button {
+    color: var(--neutral-0-white, #fff);
+    text-align: center;
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    display: inline-flex;
+    padding: 16px 56px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    background: var(--pink-400-default, #ed4d55);
+    border: 1px solid #ed4d55;
+  }
+  .compare {
+    display: flex;
+    justify-content: center;
+  }
+
+  .compare-bg-one {
+    width: 160px;
+    height: 220px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 50%,
+        rgba(0, 0, 0, 0.6) 100%
+      ),
+      #d9d9d9;
+    background-image: url(../img/compare\ 1.png);
+    background-size: cover;
+    margin: 8px 8px;
+  }
+  .text-compare p {
+    color: var(--neutral-0-white, #fff);
+    font-family: "Inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; /* 39.2px */
+  }
+  .text-compare span {
+    color: var(--neutral-0-white, #fff);
+    font-family: "Inter";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; /* 33.6px */
+  }
+  .text-compare {
+    margin-top: 159px;
+    margin-left: 2px;
+  }
+  .compare-bg-tow {
+    width: 160px;
+    height: 220px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 50%,
+        rgba(0, 0, 0, 0.6) 100%
+      ),
+      #d9d9d9;
+    background-image: url(../img/compare\ 2.png);
+    background-size: cover;
+    margin: 8px 8px;
+  }
+  .compare-bg-three {
+    width: 160px;
+    height: 220px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 50%,
+        rgba(0, 0, 0, 0.6) 100%
+      ),
+      #d9d9d9;
+    background-image: url(../img/compare\ 3.png);
+    background-size: cover;
+    margin: 8px 8px;
+  }
+  .compare-bg-foure {
+    width: 160px;
+    height: 220px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 50%,
+        rgba(0, 0, 0, 0.6) 100%
+      ),
+      #d9d9d9;
+    background-image: url(../img/compare\ 4png.png);
+    background-size: cover;
+    margin: 8px 8px;
+  }
+  .compare-bg-one a {
+    text-decoration: none;
+  }
+  .compare-bg-tow a {
+    text-decoration: none;
+  }
+  .compare-bg-three a {
+    text-decoration: none;
+  }
+  .compare-bg-foure a {
+    text-decoration: none;
+  }
+  /*******************************************************footer************************************************/
+  /*******************************************************footer************************************************/
+  .footer {
+    padding-top: 39px;
+    margin-top: 96px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .footer ul li a {
+    text-decoration: none;
+    color: var(--text-secondary-text, #808080);
+    font-family: "Inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+  }
+  .footer ul li a button {
+    height: 52px;
+    padding: 8px 56px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 26px;
+    background: var(--neutral-0-white, #fff);
+    color: var(--text-main-text, #121212);
+    font-family: "Inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    border: 1px solid #fff;
+  }
+  .footer ul li {
+    list-style: none;
+    margin: 16px 0;
+  }
+  .footer ul li span {
+    color: var(--neutral-0-white, #fff);
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+  }
+  .yalafooter {
+    color: var(--neutral-0-white, #fff);
+    font-family: "Poppins";
+    font-size: 24.988px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  i {
+    margin: 0 10px;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+  }
+  hr {
+    margin-top: 52px;
+    margin-bottom: 32px;
+    color: #808080;
+  }
+  .crghite {
+    display: block;
+    /* justify-content: center; */
+    text-align: center;
+  }
+  .crghite p {
+    color: var(--text-secondary-text, #808080);
+    font-family: "Inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+  }
+  .crghite span {
+    color: var(--text-secondary-text, #808080);
+    font-family: "Inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+/* // Medium devices (tablets, 768px and up) */
+/* // Medium devices (tablets, 768px and up) */
+/* // Medium devices (tablets, 768px and up) */
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 408px) {
+  .first-div {
+    color: var(--neutral-0-white, #fff);
+    font-family: "Poppins";
+    font-size: 20.936px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .mid-div ul li {
+    list-style: none;
+    margin: 0px 20px;
+    padding-top: 5px;
+  }
+  .mid-div ul li a {
+    text-decoration: none;
+    color: var(--neutral-0-white, #fff);
+
+    font-family: "Inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+  }
+
+  .mid-div {
+    align-items: normal;
+  }
+  .last-div a {
+    color: var(--neutral-0-white, #fff);
+
+    text-decoration: none;
+    font-family: "Inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; /* 25.2px */
+  }
+  /*******************main text responsive*********************************************/
+  .main-text h5 {
+    color: #fff;
+    font-family: "Inter";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    margin-top: 134px;
+    margin-bottom: 24px;
+  }
+  .main-text p:first-of-type {
+    color: #e7e7e7;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin-bottom: 32px;
+  }
+  .main-text button {
+    height: 42px;
+    display: inline-flex;
+    padding: 14px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    color: #fff;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    border-radius: 30px;
+    background: var(--pink-400-default, #ed4d55);
+    border: 1px solid #ed4d55;
+    margin-bottom: 150px;
+  }
+  .main-text p:last-of-type {
+    color: #e7e7e7;
+    font-family: "Inter";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+  }
+  /***********************************************travel style responsive************************************/
+  .travel-style h5 {
+    color: #000;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    margin-bottom: 16px;
+  }
+  .travel-style p {
+    color: #808080;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    margin-bottom: 32px;
+  }
+  .stylee {
+    display: flex;
+    justify-content: center;
+  }
+  .img-one {
+    width: 160px;
+    height: 180px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 50%,
+        rgba(0, 0, 0, 0.6) 100%
+      ),
+      url(../img/img-one.png),
+      lightgray -669.348px -348.462px / 449.275% 264.855% no-repeat;
+    margin: 8px 7px;
+    background-position: center;
+  }
+
+  .text-img-one {
+    color: #fff;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    text-align: center;
+    margin-top: 148px;
+  }
+
+  .img-tow {
+    width: 160px;
+    height: 180px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 50%,
+        rgba(0, 0, 0, 0.6) 100%
+      ),
+      url(../img/img-tow.png),
+      lightgray -669.348px -348.462px / 449.275% 264.855% no-repeat;
+    background-position: center;
+    margin: 8px 7px;
+  }
+  .img-three {
+    width: 160px;
+    height: 180px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 50%,
+        rgba(0, 0, 0, 0.6) 100%
+      ),
+      url(../img/img-three.png),
+      lightgray -669.348px -348.462px / 449.275% 264.855% no-repeat;
+    background-position: center;
+    margin: 8px 7px;
+  }
+  .img-four {
+    width: 160px;
+    height: 180px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 50%,
+        rgba(0, 0, 0, 0.6) 100%
+      ),
+      url(../img/img-four.png),
+      lightgray -669.348px -348.462px / 449.275% 264.855% no-repeat;
+    background-position: center;
+    margin: 8px 7px;
+  }
+  /**********************************most pop***********************************************/
+  .most h5 {
+    color: var(--text-main-text, #121212);
+    font-family: "Inter";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    margin-bottom: 16px;
+  }
+  .most p {
+    color: var(--text-secondary-text, #808080);
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    margin-bottom: 40px;
+  }
+  .most {
+    margin-bottom: 32px;
+    margin-top: 60px;
+  }
+  .most-btn {
+    margin: 0 12px;
+    display: inline-flex;
+    padding: 14px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    background: var(--neutral-25, #fafafb);
+    color: var(--text-secondary-text, #808080);
+    text-align: center;
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    border: 1px solid #fafafb;
+  }
+  .most-btn-first {
+    display: inline-flex;
+    padding: 14px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    background: var(--pink-400-default, #ed4d55);
+    color: var(--neutral-0-white, #fff);
+    text-align: center;
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+  }
+  .div-btn-most {
+    margin-bottom: 52px;
+    text-align: center;
+  }
+  /**************************/
+  .card {
+    width: 334px;
+    /* height: 382px; */
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: var(--neutral-0-white, #fff);
+    box-shadow: 0px 8px 16px -6px rgba(20, 23, 26, 0.04),
+      0px 6px 8px -6px rgba(20, 23, 26, 0.06);
+    /* margin: 0 16px; */
+    font-family: "Inter";
+  }
+
+  .text-card h5 {
+    color: var(--text-main-text, #121212);
+    font-family: " Inter";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    margin-bottom: 8px;
+  }
+  .text-card span {
+    color: var(--pink-400-default, #ed4d55);
+    font-family: "Inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+  }
+  .text-card p {
+    color: var(--text-secondary-text, #808080);
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+  }
+  .div-card {
+    margin-bottom: 43px;
+  }
+  .btn-card {
+    display: inline-flex;
+    height: 44px;
+    padding: 16px 56px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    background: var(--pink-400-default, #ed4d55);
+    color: var(--neutral-0-white, #fff);
+    text-align: center;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    border: 1px solid #ed4d55;
+  }
+  .div-btn-card {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  /*****************************************************Cheap**************************************************/
+  .cheap h5 {
+    color: var(--text-main-text, #121212);
+    font-family: "Inter";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    text-align: center;
+  }
+  .cheap p {
+    color: var(--text-secondary-text, #808080);
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    margin-top: 8px;
+  }
+  .cheap button {
+    display: inline-flex;
+    height: 44px;
+    padding: 16px 56px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    background: var(--pink-400-default, #ed4d55);
+    color: var(--neutral-0-white, #fff);
+    text-align: center;
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    border: 1px solid #ed4d55;
+  }
+  .div-bg {
+    margin-bottom: 43px;
+  }
+  .cheap-btn-tow button {
+    display: inline-flex;
+    height: 44px;
+    padding: 16px 56px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #ff626a;
+    color: #fff;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    border: 1px solid #ff626a;
+    margin-bottom: 60px;
+  }
+  .cheap {
+    margin-bottom: 32px;
+  }
+  .div-cheap-one {
+    width: 160px;
+    height: 220px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 50%,
+        rgba(0, 0, 0, 0.6) 100%
+      ),
+      url(../img/cheap\ 1.png), lightgray 50% / cover no-repeat;
+    margin: 8px 8px;
+  }
+  .div-cheap-one a {
+    text-decoration: none;
+  }
+  .div-cheap-tow a {
+    text-decoration: none;
+  }
+  .div-cheap-three a {
+    text-decoration: none;
+  }
+  .div-cheap-four a {
+    text-decoration: none;
+  }
+
+  .text-cheap p {
+    color: var(--neutral-0-white, #fff);
+    font-family: "Inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+  }
+  .text-cheap span {
+    color: var(--neutral-0-white, #fff);
+    font-family: "Inter";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; /* 33.6px */
+  }
+  .text-cheap {
+    margin-top: 160px;
+    margin-left: 2px;
+  }
+  .div-cheap-tow {
+    width: 160px;
+    height: 220px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 50%,
+        rgba(0, 0, 0, 0.6) 100%
+      ),
+      url(../img/cheap\ 2.png) lightgray 50% / cover no-repeat;
+    margin: 8px 8px;
+  }
+  .div-cheap-three {
+    width: 160px;
+    height: 220px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 50%,
+        rgba(0, 0, 0, 0.6) 100%
+      ),
+      url(../img/cheap\ 3.png) lightgray 50% / cover no-repeat;
+    margin: 8px 8px;
+  }
+  .div-cheap-four {
+    width: 160px;
+    height: 220px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 50%,
+        rgba(0, 0, 0, 0.6) 100%
+      ),
+      url(../img/cheap\ 4.png) lightgray 50% / cover no-repeat;
+    margin: 8px 8px;
+  }
+  .distination {
+    display: flex;
+    justify-content: center;
+  }
+
+  /**********************************discount************************************************************/
+  .discount {
+    margin: auto;
+    width: 100%;
+    height: 388px;
+    flex-shrink: 0;
+    opacity: 0.9;
+    border-radius: 16px;
+    background: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.4) 0%,
+        rgba(0, 0, 0, 0.4) 100%
+      ),
+      url(../img/discont\ 1.png), lightgray 0px -0.203px / 100% 100.383%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 60px;
+  }
+  .div-dis h5 {
+    color: var(--neutral-0-white, #fff);
+    font-family: "Inter";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; /* 67.2px */
+  }
+  .div-dis p {
+    color: var(--neutral-0-white, #fff);
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    margin-bottom: 50px;
+  }
+  .div-dis button {
+    display: inline-flex;
+    height: 44px;
+    padding: 16px 56px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    background: var(--pink-400-default, #ed4d55);
+    color: var(--neutral-0-white, #fff);
+    text-align: center;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: 1px solid #ed4d55;
+  }
+  .div-dis {
+    display: flex;
+    justify-content: center;
+  }
+  .text-div-dis {
+    margin-top: 80px;
+  }
+  /*************************************************compare*********************************************************/
+  .compare h5 {
+    color: var(--text-main-text, #121212);
+    font-family: "Inter";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+  }
+  .compare button {
+    color: var(--neutral-0-white, #fff);
+    text-align: center;
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    display: inline-flex;
+    padding: 16px 56px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    background: var(--pink-400-default, #ed4d55);
+    border: 1px solid #ed4d55;
+  }
+  .compare {
+    display: flex;
+    justify-content: center;
+  }
+
+  .compare-bg-one {
+    width: 160px;
+    height: 220px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 50%,
+        rgba(0, 0, 0, 0.6) 100%
+      ),
+      #d9d9d9;
+    background-image: url(../img/compare\ 1.png);
+    background-size: cover;
+    margin: 8px 8px;
+  }
+  .text-compare p {
+    color: var(--neutral-0-white, #fff);
+    font-family: "Inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; /* 39.2px */
+  }
+  .text-compare span {
+    color: var(--neutral-0-white, #fff);
+    font-family: "Inter";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; /* 33.6px */
+  }
+  .text-compare {
+    margin-top: 159px;
+    margin-left: 2px;
+  }
+  .compare-bg-tow {
+    width: 160px;
+    height: 220px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 50%,
+        rgba(0, 0, 0, 0.6) 100%
+      ),
+      #d9d9d9;
+    background-image: url(../img/compare\ 2.png);
+    background-size: cover;
+    margin: 8px 8px;
+  }
+  .compare-bg-three {
+    width: 160px;
+    height: 220px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 50%,
+        rgba(0, 0, 0, 0.6) 100%
+      ),
+      #d9d9d9;
+    background-image: url(../img/compare\ 3.png);
+    background-size: cover;
+    margin: 8px 8px;
+  }
+  .compare-bg-foure {
+    width: 160px;
+    height: 220px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 50%,
+        rgba(0, 0, 0, 0.6) 100%
+      ),
+      #d9d9d9;
+    background-image: url(../img/compare\ 4png.png);
+    background-size: cover;
+    margin: 8px 8px;
+  }
+  .compare-bg-one a {
+    text-decoration: none;
+  }
+  .compare-bg-tow a {
+    text-decoration: none;
+  }
+  .compare-bg-three a {
+    text-decoration: none;
+  }
+  .compare-bg-foure a {
+    text-decoration: none;
+  }
+  /*******************************************************footer************************************************/
+  /*******************************************************footer************************************************/
+  .footer {
+    padding-top: 39px;
+    margin-top: 96px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .footer ul li a {
+    text-decoration: none;
+    color: var(--text-secondary-text, #808080);
+    font-family: "Inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+  }
+  .footer ul li a button {
+    height: 52px;
+    padding: 8px 56px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 26px;
+    background: var(--neutral-0-white, #fff);
+    color: var(--text-main-text, #121212);
+    font-family: "Inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    border: 1px solid #fff;
+  }
+  .footer ul li {
+    list-style: none;
+    margin: 16px 0;
+  }
+  .footer ul li span {
+    color: var(--neutral-0-white, #fff);
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+  }
+  .yalafooter {
+    color: var(--neutral-0-white, #fff);
+    font-family: "Poppins";
+    font-size: 24.988px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  i {
+    margin: 0 10px;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+  }
+  hr {
+    margin-top: 52px;
+    margin-bottom: 32px;
+    color: #808080;
+  }
+  .crghite {
+    display: block;
+    /* justify-content: center; */
+    text-align: center;
+  }
+  .crghite p {
+    color: var(--text-secondary-text, #808080);
+    font-family: "Inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+  }
+  .crghite span {
+    color: var(--text-secondary-text, #808080);
+    font-family: "Inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
   }
 }
 /* // XX-Large devices (larger desktops, 1400px and up) */
@@ -840,6 +1809,7 @@ body {
     font-style: normal;
     font-weight: 600;
     line-height: 140%;
+    text-align: start;
   }
   .cheap p {
     color: var(--text-secondary-text, #808080);
@@ -848,6 +1818,7 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 140%;
+
     margin-top: 8px;
   }
   .cheap button {
@@ -884,6 +1855,9 @@ body {
       url(../img/cheap\ 1.png), lightgray 50% / cover no-repeat;
     margin: 0 16px;
   }
+  .div-cheap-one a {
+    text-decoration: none;
+  }
 
   .text-cheap p {
     color: var(--neutral-0-white, #fff);
@@ -903,6 +1877,7 @@ body {
   }
   .text-cheap {
     margin-top: 275px;
+    margin-left: 12px;
   }
   .div-cheap-tow {
     width: 276px;
@@ -917,6 +1892,11 @@ body {
       url(../img/cheap\ 2.png) lightgray 50% / cover no-repeat;
     margin: 0 16px;
   }
+
+  .div-cheap-tow a {
+    text-decoration: none;
+  }
+
   .div-cheap-three {
     width: 276px;
     height: 378px;
@@ -929,6 +1909,9 @@ body {
       ),
       url(../img/cheap\ 3.png) lightgray 50% / cover no-repeat;
     margin: 0 16px;
+  }
+  .div-cheap-three a {
+    text-decoration: none;
   }
   .div-cheap-four {
     width: 276px;
@@ -943,8 +1926,15 @@ body {
       url(../img/cheap\ 4.png) lightgray 50% / cover no-repeat;
     margin: 0 16px;
   }
+  .div-cheap-four a {
+    text-decoration: none;
+  }
   .div-con-mar {
     margin-bottom: 120px;
+  }
+  .distination {
+    display: flex;
+    justify-content: space-between;
   }
   /**********************************discount*******************************************/
   .discount {
@@ -962,6 +1952,7 @@ body {
       url(../img/discont\ 1.png), lightgray 0px -0.203px / 100% 100.383%;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 120px;
   }
   .div-dis h5 {
     color: var(--neutral-0-white, #fff);
@@ -1001,8 +1992,207 @@ body {
   .text-div-dis {
     margin-right: 121px;
     margin-top: 40px;
+    margin-bottom: 40px;
   }
   .div-dis {
+    display: flex;
+    justify-content: end;
+  }
+  /*************************************************compare**************************************************/
+  .compare h5 {
+    color: var(--text-main-text, #121212);
+    font-family: "Inter";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+  }
+  .compare button {
+    color: var(--neutral-0-white, #fff);
+    text-align: center;
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    display: inline-flex;
+    padding: 14px 40px;
+    height: 56px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    background: var(--pink-400-default, #ed4d55);
+    border: 1px solid #ed4d55;
+  }
+  .compare {
+    display: flex;
+    justify-content: space-between;
+  }
+  .compare-bg-one {
+    width: 276px;
+    height: 378px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 50%,
+        rgba(0, 0, 0, 0.6) 100%
+      ),
+      #d9d9d9;
+    background-image: url(../img/compare\ 1.png);
+    background-size: cover;
+    margin: 0 16px;
+  }
+  .text-compare p {
+    color: var(--neutral-0-white, #fff);
+    font-family: "Inter";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 39.2px */
+  }
+  .text-compare span {
+    color: var(--neutral-0-white, #fff);
+    font-family: "Inter";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 33.6px */
+  }
+  .text-compare {
+    margin-top: 281px;
+    margin-left: 12px;
+  }
+  .compare-bg-tow {
+    width: 276px;
+    height: 378px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 50%,
+        rgba(0, 0, 0, 0.6) 100%
+      ),
+      #d9d9d9;
+    background-image: url(../img/compare\ 2.png);
+    background-size: cover;
+    margin: 0 16px;
+  }
+  .compare-bg-three {
+    width: 276px;
+    height: 378px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 50%,
+        rgba(0, 0, 0, 0.6) 100%
+      ),
+      #d9d9d9;
+    background-image: url(../img/compare\ 3.png);
+    background-size: cover;
+    margin: 0 16px;
+  }
+  .compare-bg-foure {
+    width: 276px;
+    height: 378px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 50%,
+        rgba(0, 0, 0, 0.6) 100%
+      ),
+      #d9d9d9;
+    background-image: url(../img/compare\ 4png.png);
+    background-size: cover;
+    margin: 0 16px;
+  }
+  /*******************************************************footer************************************************/
+  .footer {
+    padding-top: 39px;
+    margin-top: 96px;
+    display: flex;
+    justify-content: space-between;
     text-align: start;
+  }
+  .footer ul li a {
+    text-decoration: none;
+    color: var(--text-secondary-text, #808080);
+    font-family: "Inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+  }
+  .footer ul li a button {
+    display: flex;
+    height: 52px;
+    padding: 8px 56px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 26px;
+    background: var(--neutral-0-white, #fff);
+    color: var(--text-main-text, #121212);
+    font-family: "Inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    border: 1px solid #fff;
+  }
+
+  .footer ul li {
+    list-style: none;
+    margin: 16px 0;
+  }
+  .footer ul li span {
+    color: var(--neutral-0-white, #fff);
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+  }
+  .yalafooter {
+    color: var(--neutral-0-white, #fff);
+    font-family: "Poppins";
+    font-size: 24.988px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  i {
+    margin: 0 10px;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+  }
+  hr {
+    margin-top: 52px;
+    margin-bottom: 32px;
+    color: #808080;
+  }
+  .crghite {
+    display: flex;
+    justify-content: space-between;
+  }
+  .crghite p {
+    color: var(--text-secondary-text, #808080);
+    font-family: "Inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+  }
+  .crghite span {
+    color: var(--text-secondary-text, #808080);
+    font-family: "Inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
   }
 }
