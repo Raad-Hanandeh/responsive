@@ -119,6 +119,7 @@ body {
     font-weight: 600;
     line-height: 140%;
     margin-bottom: 16px;
+    margin-top: 56px;
   }
   .travel-style p {
     color: #808080;
@@ -128,7 +129,7 @@ body {
     font-style: normal;
     font-weight: 500;
     line-height: 140%;
-    margin-bottom: 32px;
+    margin-bottom: 24px;
   }
   .stylee {
     display: flex;
@@ -146,8 +147,8 @@ body {
       ),
       url(../img/img-one.png),
       lightgray -669.348px -348.462px / 449.275% 264.855% no-repeat;
+    background-size: contain;
     margin: 8px 7px;
-    background-position: center;
   }
 
   .text-img-one {
@@ -173,7 +174,7 @@ body {
       ),
       url(../img/img-tow.png),
       lightgray -669.348px -348.462px / 449.275% 264.855% no-repeat;
-    background-position: center;
+    background-size: contain;
     margin: 8px 7px;
   }
   .img-three {
@@ -188,7 +189,7 @@ body {
       ),
       url(../img/img-three.png),
       lightgray -669.348px -348.462px / 449.275% 264.855% no-repeat;
-    background-position: center;
+    background-size: contain;
     margin: 8px 7px;
   }
   .img-four {
@@ -203,7 +204,7 @@ body {
       ),
       url(../img/img-four.png),
       lightgray -669.348px -348.462px / 449.275% 264.855% no-repeat;
-    background-position: center;
+    background-size: contain;
     margin: 8px 7px;
   }
   /**********************************most pop***********************************************/
@@ -227,7 +228,7 @@ body {
   }
   .most {
     margin-bottom: 32px;
-    margin-top: 60px;
+    margin-top: 52px;
   }
   .most-btn {
     margin: 0 12px;
@@ -264,7 +265,7 @@ body {
     line-height: 140%;
   }
   .div-btn-most {
-    margin-bottom: 52px;
+    margin-bottom: 32px;
     text-align: center;
   }
   /**************************/
@@ -306,7 +307,7 @@ body {
     line-height: 140%;
   }
   .div-card {
-    margin-bottom: 43px;
+    margin-bottom: 32px;
   }
   .btn-card {
     display: inline-flex;
@@ -368,7 +369,7 @@ body {
     border: 1px solid #ed4d55;
   }
   .div-bg {
-    margin-bottom: 43px;
+    margin-bottom: 24px;
   }
   .cheap-btn-tow button {
     display: inline-flex;
@@ -391,7 +392,7 @@ body {
     margin-bottom: 60px;
   }
   .cheap {
-    margin-bottom: 32px;
+    margin-bottom: 8px;
   }
   .div-cheap-one {
     width: 160px;
@@ -497,7 +498,7 @@ body {
         rgba(0, 0, 0, 0.4) 100%
       ),
       url(../img/discont\ 1.png), lightgray 0px -0.203px / 100% 100.383%;
-    background-repeat: no-repeat;
+
     background-size: cover;
     margin-bottom: 60px;
   }
@@ -573,6 +574,7 @@ body {
   .compare {
     display: flex;
     justify-content: center;
+    margin-bottom: 16px;
   }
 
   .compare-bg-one {
@@ -671,16 +673,16 @@ body {
   /*******************************************************footer************************************************/
   .footer {
     padding-top: 39px;
-    margin-top: 96px;
+    margin-top: 60px;
     display: flex;
     justify-content: center;
     text-align: center;
   }
   .footer ul li a {
     text-decoration: none;
-    color: var(--text-secondary-text, #808080);
+    color: var(--text-secondary-text, #ccc);
     font-family: "Inter";
-    font-size: 18px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: 140%;
@@ -721,11 +723,22 @@ body {
     font-weight: 700;
     line-height: normal;
   }
-  i {
+  .icon {
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 0 10px;
-    width: 34px;
-    height: 34px;
-    border-radius: 50%;
+  }
+  .iicon {
+    margin-left: 0;
+  }
+  .list-icon {
+    display: flex;
+    justify-content: center;
   }
   hr {
     margin-top: 52px;
@@ -734,7 +747,6 @@ body {
   }
   .crghite {
     display: block;
-    /* justify-content: center; */
     text-align: center;
   }
   .crghite p {
@@ -856,6 +868,7 @@ body {
     font-weight: 600;
     line-height: 140%;
     margin-bottom: 16px;
+    margin-top: 56px;
   }
   .travel-style p {
     color: #808080;
@@ -865,7 +878,7 @@ body {
     font-style: normal;
     font-weight: 500;
     line-height: 140%;
-    margin-bottom: 32px;
+    margin-bottom: 24px;
   }
   .stylee {
     display: flex;
@@ -883,8 +896,8 @@ body {
       ),
       url(../img/img-one.png),
       lightgray -669.348px -348.462px / 449.275% 264.855% no-repeat;
+    background-size: contain;
     margin: 8px 7px;
-    background-position: center;
   }
 
   .text-img-one {
@@ -910,7 +923,7 @@ body {
       ),
       url(../img/img-tow.png),
       lightgray -669.348px -348.462px / 449.275% 264.855% no-repeat;
-    background-position: center;
+    background-size: contain;
     margin: 8px 7px;
   }
   .img-three {
@@ -925,7 +938,7 @@ body {
       ),
       url(../img/img-three.png),
       lightgray -669.348px -348.462px / 449.275% 264.855% no-repeat;
-    background-position: center;
+    background-size: contain;
     margin: 8px 7px;
   }
   .img-four {
@@ -940,7 +953,7 @@ body {
       ),
       url(../img/img-four.png),
       lightgray -669.348px -348.462px / 449.275% 264.855% no-repeat;
-    background-position: center;
+    background-size: contain;
     margin: 8px 7px;
   }
   /**********************************most pop***********************************************/
@@ -964,7 +977,7 @@ body {
   }
   .most {
     margin-bottom: 32px;
-    margin-top: 60px;
+    margin-top: 52px;
   }
   .most-btn {
     margin: 0 12px;
@@ -1001,7 +1014,7 @@ body {
     line-height: 140%;
   }
   .div-btn-most {
-    margin-bottom: 52px;
+    margin-bottom: 32px;
     text-align: center;
   }
   /**************************/
@@ -1043,7 +1056,7 @@ body {
     line-height: 140%;
   }
   .div-card {
-    margin-bottom: 43px;
+    margin-bottom: 32px;
   }
   .btn-card {
     display: inline-flex;
@@ -1105,7 +1118,7 @@ body {
     border: 1px solid #ed4d55;
   }
   .div-bg {
-    margin-bottom: 43px;
+    margin-bottom: 24px;
   }
   .cheap-btn-tow button {
     display: inline-flex;
@@ -1128,7 +1141,7 @@ body {
     margin-bottom: 60px;
   }
   .cheap {
-    margin-bottom: 32px;
+    margin-bottom: 8px;
   }
   .div-cheap-one {
     width: 160px;
@@ -1234,7 +1247,7 @@ body {
         rgba(0, 0, 0, 0.4) 100%
       ),
       url(../img/discont\ 1.png), lightgray 0px -0.203px / 100% 100.383%;
-    background-repeat: no-repeat;
+
     background-size: cover;
     margin-bottom: 60px;
   }
@@ -1310,6 +1323,7 @@ body {
   .compare {
     display: flex;
     justify-content: center;
+    margin-bottom: 16px;
   }
 
   .compare-bg-one {
@@ -1408,16 +1422,16 @@ body {
   /*******************************************************footer************************************************/
   .footer {
     padding-top: 39px;
-    margin-top: 96px;
+    margin-top: 60px;
     display: flex;
     justify-content: center;
     text-align: center;
   }
   .footer ul li a {
     text-decoration: none;
-    color: var(--text-secondary-text, #808080);
+    color: var(--text-secondary-text, #ccc);
     font-family: "Inter";
-    font-size: 18px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: 140%;
@@ -1458,17 +1472,22 @@ body {
     font-weight: 700;
     line-height: normal;
   }
-  .footer-icon {
+  .icon {
     width: 20px;
     height: 20px;
-    border-radius: 50%;
-    color: #fff;
-  }
-  .iicon {
+    background-color: #fff;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 0 10px;
   }
-  .iiicon {
-    margin-right: 10px;
+  .iicon {
+    margin-left: 0;
+  }
+  .list-icon {
+    display: flex;
+    justify-content: center;
   }
   hr {
     margin-top: 52px;
@@ -1477,7 +1496,6 @@ body {
   }
   .crghite {
     display: block;
-    /* justify-content: center; */
     text-align: center;
   }
   .crghite p {
@@ -1601,7 +1619,7 @@ body {
     font-weight: 600;
     line-height: 140%;
     text-align: center;
-    margin-top: 52px;
+    margin-top: 70px;
     margin-bottom: 15px;
   }
   .travel-style p {
@@ -1626,6 +1644,7 @@ body {
       ),
       url(../img/img-one.png),
       lightgray -669.348px -348.462px / 449.275% 264.855% no-repeat;
+    background-size: cover;
     margin: 0 16px;
   }
 
@@ -1651,6 +1670,7 @@ body {
       ),
       url(../img/img-tow.png),
       lightgray -669.348px -348.462px / 449.275% 264.855% no-repeat;
+    background-size: cover;
     margin: 0 16px;
   }
   .img-three {
@@ -1665,6 +1685,7 @@ body {
       ),
       url(../img/img-three.png),
       lightgray -669.348px -348.462px / 449.275% 264.855% no-repeat;
+    background-size: cover;
     margin: 0 16px;
   }
   .img-four {
@@ -1679,6 +1700,7 @@ body {
       ),
       url(../img/img-four.png),
       lightgray -669.348px -348.462px / 449.275% 264.855% no-repeat;
+    background-size: cover;
     margin: 0 16px;
   }
   .stylee {
@@ -1705,7 +1727,7 @@ body {
     line-height: 140%;
   }
   .most {
-    margin-bottom: 65px;
+    margin-bottom: 51px;
   }
   .most-btn {
     margin: 0 12px;
@@ -1783,7 +1805,7 @@ body {
     line-height: 140%;
   }
   .div-card {
-    margin-bottom: 70px;
+    margin-bottom: 56px;
   }
   .btn-card {
     display: inline-flex;
@@ -1816,6 +1838,7 @@ body {
     font-weight: 600;
     line-height: 140%;
     text-align: start;
+    margin-bottom: 0;
   }
   .cheap p {
     color: var(--text-secondary-text, #808080);
@@ -1824,8 +1847,6 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 140%;
-
-    margin-top: 8px;
   }
   .cheap button {
     display: inline-flex;
@@ -1936,7 +1957,7 @@ body {
     text-decoration: none;
   }
   .div-con-mar {
-    margin-bottom: 120px;
+    margin-bottom: 77px;
   }
   .distination {
     display: flex;
@@ -1955,10 +1976,9 @@ body {
         rgba(0, 0, 0, 0.4) 0%,
         rgba(0, 0, 0, 0.4) 100%
       ),
-      url(../img/discont\ 1.png), lightgray 0px -0.203px / 100% 100.383%;
-    background-repeat: no-repeat;
+      url(../img/mask.png), lightgray 0px -0.203px / 100% 100.383%;
     background-size: cover;
-    margin-bottom: 120px;
+    margin-bottom: 131px;
   }
   .div-dis h5 {
     color: var(--neutral-0-white, #fff);
@@ -2034,6 +2054,7 @@ body {
   .compare {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 39px;
   }
   .compare-bg-one {
     width: 276px;
@@ -2196,16 +2217,23 @@ body {
     font-weight: 500;
     line-height: 140%;
   }
-  .footer-icon {
+
+  /*********/
+  .icon {
     width: 34px;
     height: 34px;
-    border-radius: 50%;
-    color: #fff;
-  }
-  .iicon {
+    background-color: #fff;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 0 10px;
   }
-  .iiicon {
-    margin-right: 10px;
+  .iicon {
+    margin-left: 0;
+  }
+  .list-icon {
+    display: flex;
+    justify-content: start;
   }
 }
