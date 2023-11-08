@@ -283,7 +283,7 @@ body {
 
   .text-card h5 {
     color: var(--text-main-text, #121212);
-    font-family: " Inter";
+    font-family: "Inter";
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
@@ -498,7 +498,6 @@ body {
         rgba(0, 0, 0, 0.4) 100%
       ),
       url(../img/discont\ 1.png), lightgray 0px -0.203px / 100% 100.383%;
-
     background-size: cover;
     margin-bottom: 60px;
   }
@@ -724,8 +723,8 @@ body {
     line-height: normal;
   }
   .icon {
-    width: 20px;
-    height: 20px;
+    width: 34px;
+    height: 34px;
     background-color: #fff;
     border-radius: 100%;
     display: flex;
@@ -1246,8 +1245,7 @@ body {
         rgba(0, 0, 0, 0.4) 0%,
         rgba(0, 0, 0, 0.4) 100%
       ),
-      url(../img/discont\ 1.png), lightgray 0px -0.203px / 100% 100.383%;
-
+      url(../img/discont\ 1.png) lightgray 0px -0.203px / 100% 100.383%;
     background-size: cover;
     margin-bottom: 60px;
   }
@@ -1473,8 +1471,8 @@ body {
     line-height: normal;
   }
   .icon {
-    width: 20px;
-    height: 20px;
+    width: 34px;
+    height: 34px;
     background-color: #fff;
     border-radius: 100%;
     display: flex;
@@ -1976,8 +1974,9 @@ body {
         rgba(0, 0, 0, 0.4) 0%,
         rgba(0, 0, 0, 0.4) 100%
       ),
-      url(../img/mask.png), lightgray 0px -0.203px / 100% 100.383%;
-    background-size: cover;
+      url(../img/mask.png), #e7e7e7 0px -0.203px / 100% 100.383%;
+    background-repeat: no-repeat;
+    background-size: contain;
     margin-bottom: 131px;
   }
   .div-dis h5 {
