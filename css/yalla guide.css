@@ -46,6 +46,13 @@ body {
     display: flex;
     justify-content: center;
   }
+  .navbar-nav li :hover {
+    color: #fff;
+  }
+  .menu {
+    font-family: "Inter";
+    font-size: 24px;
+  }
   /******************************************************main text res*******************************************************/
   .main-text h5 {
     color: var(--text-main-text, #121212);
@@ -285,7 +292,12 @@ body {
     font-style: normal;
     font-weight: 500;
     line-height: 140%;
-    margin-top: 282px;
+    height: 100%;
+    display: flex;
+    align-content: center;
+    flex-flow: column;
+    justify-content: end;
+    padding-bottom: 32px;
     margin-left: 12px;
   }
   .bg-card-tow {
@@ -436,8 +448,6 @@ body {
   .footer {
     padding-top: 39px;
     margin-top: 60px;
-    display: flex;
-    justify-content: center;
     text-align: center;
   }
   .footer ul li a {
@@ -601,7 +611,7 @@ body {
   }
   .form {
     margin: auto;
-    width: 336px;
+    width: 200px;
     height: 48px;
     display: flex;
     padding: 6px 6px 6px 14px;
@@ -614,7 +624,7 @@ body {
   }
   .form a {
     display: flex;
-    padding: 8px 16px;
+    padding: 4px 10px;
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -623,21 +633,21 @@ body {
     color: var(--neutral-0-white, #fff);
     text-align: center;
     font-family: "Inter";
-    font-size: 14px;
+    font-size: 10px;
     font-style: normal;
     font-weight: 500;
     line-height: 140%;
     text-decoration: none;
   }
   .form input {
-    width: 160px;
-    height: 20px;
+    width: 100px;
+    height: 15px;
   }
   ::placeholder {
     color: var(--text-secondary-text, #808080);
     text-align: center;
     font-family: "Inter";
-    font-size: 14px;
+    font-size: 8px;
     font-style: normal;
     font-weight: 400;
   }
@@ -813,8 +823,13 @@ body {
     font-style: normal;
     font-weight: 500;
     line-height: 140%;
-    margin-top: 282px;
-    margin-left: 12px;
+    height: 100%;
+    display: flex;
+    align-content: center;
+    flex-flow: column;
+    justify-content: end;
+    padding-bottom: 32px;
+    margin-left: 16px;
   }
   .bg-card-tow {
     width: 334px;
@@ -894,7 +909,7 @@ body {
   .stayy {
     text-align: start;
     margin-top: 53px;
-    margin-left: 21px;
+    margin-left: 18px;
   }
   .stayy h5 {
     color: var(--neutral-0-white, #fff);
@@ -964,8 +979,6 @@ body {
   .footer {
     padding-top: 39px;
     margin-top: 60px;
-    display: flex;
-    justify-content: center;
     text-align: center;
   }
   .footer ul li a {
@@ -1067,7 +1080,7 @@ body {
     padding: 0 20px;
   }
   .first-div {
-    color: var(--neutral-0-white, #121212);
+    color: var(--neutral-0-white, #5137a6);
     font-family: "Poppins";
     font-size: 20.936px;
     font-style: normal;
@@ -1251,7 +1264,6 @@ body {
   /*********************************************************card row 1******************************************************/
   .m-row {
     margin-bottom: 32px;
-    /* margin-left: 12px; */
   }
   .justify {
     display: flex;
@@ -1341,7 +1353,6 @@ body {
       ),
       url(../img/backg-img1.png),
       lightgray 0px -124.5px / 100% 135.646% no-repeat;
-    /* margin: 0 16.5px; */
   }
   .bg-card a {
     text-decoration: none;
@@ -1353,8 +1364,13 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 140%;
-    margin-top: 286px;
-    margin-left: 8px;
+    height: 100%;
+    display: flex;
+    align-content: center;
+    flex-flow: column;
+    justify-content: end;
+    padding-bottom: 32px;
+    margin-left: 24px;
   }
   .bg-card-tow {
     padding: 0;
@@ -1370,7 +1386,6 @@ body {
       ),
       url(../img/backg-img2.png),
       lightgray 0px -124.5px / 100% 135.646% no-repeat;
-    /* margin: 0 16.5px; */
   }
   .bg-card-tow a {
     text-decoration: none;
@@ -1389,7 +1404,6 @@ body {
       ),
       url(../img/backg-img3.png),
       lightgray 0px -124.5px / 100% 135.646% no-repeat;
-    /* margin: 0 16.5px; */
   }
   .bg-card-three a {
     text-decoration: none;
@@ -1506,8 +1520,6 @@ body {
   .footer {
     padding-top: 39px;
     margin-top: 80px;
-    display: flex;
-    justify-content: center;
     text-align: center;
   }
   .footer ul li a {
@@ -1520,11 +1532,8 @@ body {
     line-height: 140%;
   }
   .footer ul li a button {
-    /* display: flex; */
     height: 52px;
     padding: 8px 56px;
-    /* justify-content: center;
-    align-items: center; */
     gap: 10px;
     border-radius: 26px;
     background: var(--neutral-0-white, #fff);
@@ -1615,7 +1624,7 @@ body {
     padding: 0 40px;
   }
   .first-div {
-    color: var(--neutral-0-white, #121212);
+    color: var(--neutral-0-white, #5137a6);
     font-family: "Poppins";
     font-size: 20.936px;
     font-style: normal;
@@ -1799,7 +1808,6 @@ body {
   /*********************************************************card row 1******************************************************/
   .m-row {
     margin-bottom: 32px;
-    /* margin-left: 12px; */
   }
   .justify {
     display: flex;
@@ -1889,7 +1897,6 @@ body {
       ),
       url(../img/backg-img1.png),
       lightgray 0px -124.5px / 100% 135.646% no-repeat;
-    /* margin: 0 16.5px; */
   }
   .bg-card a {
     text-decoration: none;
@@ -1901,8 +1908,13 @@ body {
     font-style: normal;
     font-weight: 500;
     line-height: 140%;
-    margin-top: 327px;
-    margin-left: 8px;
+    height: 100%;
+    display: flex;
+    align-content: center;
+    flex-flow: column;
+    justify-content: end;
+    padding-bottom: 32px;
+    margin-left: 24px;
   }
   .bg-card-tow {
     padding: 0;
@@ -1918,7 +1930,6 @@ body {
       ),
       url(../img/backg-img2.png),
       lightgray 0px -124.5px / 100% 135.646% no-repeat;
-    /* margin: 0 16.5px; */
   }
   .bg-card-tow a {
     text-decoration: none;
@@ -1937,7 +1948,6 @@ body {
       ),
       url(../img/backg-img3.png),
       lightgray 0px -124.5px / 100% 135.646% no-repeat;
-    /* margin: 0 16.5px; */
   }
   .bg-card-three a {
     text-decoration: none;
@@ -2054,8 +2064,6 @@ body {
   .footer {
     padding-top: 39px;
     margin-top: 120px;
-    display: flex;
-    justify-content: space-between;
     text-align: start;
   }
   .footer ul li a {
@@ -2165,7 +2173,7 @@ body {
     padding: 0 80px;
   }
   .first-div {
-    color: var(--neutral-0-white, #121212);
+    color: var(--neutral-0-white, #5137a6);
     font-family: "Poppins";
     font-size: 20.936px;
     font-style: normal;
@@ -2349,7 +2357,6 @@ body {
   /*********************************************************card row 1******************************************************/
   .m-row {
     margin-bottom: 32px;
-    /* margin-left: 12px; */
   }
   .justify {
     display: flex;
@@ -2439,7 +2446,6 @@ body {
       ),
       url(../img/backg-img1.png),
       lightgray 0px -124.5px / 100% 135.646% no-repeat;
-    /* margin: 0 16.5px; */
   }
   .bg-card a {
     text-decoration: none;
@@ -2451,9 +2457,15 @@ body {
     font-style: normal;
     font-weight: 500;
     line-height: 140%;
-    margin-top: 319px;
-    margin-left: 12px;
+    height: 100%;
+    display: flex;
+    align-content: center;
+    flex-flow: column;
+    justify-content: end;
+    padding-bottom: 32px;
+    margin-left: 24px;
   }
+
   .bg-card-tow {
     padding: 0;
     margin: 0;
@@ -2468,7 +2480,6 @@ body {
       ),
       url(../img/backg-img2.png),
       lightgray 0px -124.5px / 100% 135.646% no-repeat;
-    /* margin: 0 16.5px; */
   }
   .bg-card-tow a {
     text-decoration: none;
@@ -2487,7 +2498,6 @@ body {
       ),
       url(../img/backg-img3.png),
       lightgray 0px -124.5px / 100% 135.646% no-repeat;
-    /* margin: 0 16.5px; */
   }
   .bg-card-three a {
     text-decoration: none;
@@ -2604,8 +2614,6 @@ body {
   .footer {
     padding-top: 39px;
     margin-top: 120px;
-    display: flex;
-    justify-content: space-between;
     text-align: start;
   }
   .footer ul li a {
