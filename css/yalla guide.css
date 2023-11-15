@@ -1076,9 +1076,12 @@ body {
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
   /**********************************************************nav***************************************************/
-  .container-fluid {
-    padding: 0 20px;
+  .padding-nav {
+    padding: 0 40px;
   }
+  /* .container-fluid {
+    padding: 0 20px;
+  } */
   .first-div {
     color: var(--neutral-0-white, #5137a6);
     font-family: "Poppins";
@@ -1620,9 +1623,12 @@ body {
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
-  .container-fluid {
+  .padding-nav {
     padding: 0 40px;
   }
+  /* .container-fluid {
+    padding: 0 40px;
+  } */
   .first-div {
     color: var(--neutral-0-white, #5137a6);
     font-family: "Poppins";
@@ -2169,9 +2175,12 @@ body {
     max-width: 1200px;
   }
   /**********************************************************nav***************************************************/
-  .container-fluid {
+  .padding-nav {
     padding: 0 80px;
   }
+  /* .container-fluid {
+    padding: 0 80px;
+  } */
   .first-div {
     color: var(--neutral-0-white, #5137a6);
     font-family: "Poppins";
