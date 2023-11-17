@@ -400,7 +400,7 @@
   .cheap-row {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 60px;
+    margin-bottom: 32px;
   }
   .text-cheap-rel {
     display: flex;
@@ -442,6 +442,7 @@
   .cheap-btn-last {
     display: flex;
     justify-content: center;
+    margin-bottom: 60px;
   }
   .cheap-btn-last button {
     display: inline-flex;
@@ -460,6 +461,66 @@
     font-style: normal;
     font-weight: 500;
     line-height: 140%;
+  }
+  /******************************************discount*********************************************************/
+  .dis {
+    width: auto;
+    height: auto;
+
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.4) 0%,
+        rgba(0, 0, 0, 0.4) 100%
+      ),
+      url(../img/mask.png), #e7e7e6 0px -0.203px / 100% 100.383% no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+  }
+  .text-div {
+    margin-top: 80px;
+    margin-right: 0;
+    text-align: center;
+  }
+  .text-div h5 {
+    color: var(--neutral-0-white, #fff);
+    font-family: "Inter";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    margin-bottom: 24px;
+  }
+  .text-div p {
+    color: var(--neutral-0-white, #fff);
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    margin-bottom: 26px;
+  }
+  .text-div button {
+    display: inline-flex;
+    padding: 14px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    background: var(--pink-400-default, #ed4d55);
+    border: 1px solid #ed4d55;
+    color: var(--neutral-0-white, #fff);
+    text-align: center;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 80px;
   }
 }
 /*********************************************************************8XX-Large devices (larger desktops, 1400px and up)*/
@@ -928,6 +989,7 @@
   .text-div {
     margin-top: 40px;
     margin-right: 121px;
+    text-align: start;
   }
   .text-div h5 {
     color: var(--neutral-0-white, #fff);
