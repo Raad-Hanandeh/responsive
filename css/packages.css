@@ -2,7 +2,466 @@
   font-family: "Inter", sans-serif;
   font-family: "Poppins", sans-serif;
 }
+.sidebar {
+  font-size: 24px;
+  font-family: "Inter";
+}
+.nav-item .nav-link {
+  font-family: "Inter";
+  color: #121212;
+}
 
+/********************************************************************* Small devices (landscape phones, 576px and up)*/
+/********************************************************************* Small devices (landscape phones, 576px and up)*/
+/********************************************************************* Small devices (landscape phones, 576px and up)*/
+/********************************************************************* Small devices (landscape phones, 576px and up)*/
+/********************************************************************* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 375px) {
+  .bg-packages {
+    background-image: url(../img/back\ packages.png);
+    height: 750px;
+    background-size: cover;
+    background-position: center;
+  }
+  /********************************************************nav***********************************/
+  .padding-nav {
+    padding: 0 !important;
+  }
+  .first-div {
+    color: var(--neutral-0-white, #fff);
+    font-family: "Poppins";
+    font-size: 20.936px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .mid-div ul li {
+    list-style: none;
+    margin: 0px 20px;
+    padding-top: 5px;
+  }
+  .mid-div ul li a {
+    text-decoration: none;
+    color: var(--neutral-0-white, #fff);
+    font-family: "Inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    text-transform: capitalize;
+  }
+
+  .mid-div {
+    align-items: normal;
+  }
+  .last-div a {
+    color: var(--neutral-0-white, #fff);
+    text-decoration: none;
+    font-family: "Inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /***************************************************bg-packages*****************************************************/
+  .text-packages {
+    margin-top: 131px;
+    margin-left: 8px;
+  }
+  .text-packages h1 {
+    color: var(--neutral-0-white, #fff);
+    font-family: "Inter";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    margin-bottom: 24px;
+  }
+  .text-packages p:first-of-type {
+    color: var(--neutral-100, #e5e5e6);
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin-bottom: 32px;
+  }
+  .text-packages button {
+    display: inline-flex;
+    padding: 14px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    background: var(--pink-400-default, #ed4d55);
+    border: 1px solid #ed4d55;
+    color: var(--neutral-0-white, #fff);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    margin-bottom: 150px;
+  }
+  .text-packages p:last-of-type {
+    color: var(--neutral-100, #e5e5e6);
+    font-family: "Inter";
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+  }
+  /***************************************************travel style************************************************************/
+  .width {
+    max-width: auto;
+    margin: 0 auto;
+  }
+  .text-travel-style h5 {
+    color: var(--text-main-text, #121212);
+    font-family: "Inter";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    margin-top: 60px;
+    margin-bottom: 16px;
+  }
+  .text-travel-style {
+    color: var(--text-secondary-text, #808080);
+    font-family: " Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin-bottom: 32px;
+  }
+  .rel {
+    background-image: url(../img/img-one.png);
+    width: 160px !important;
+    height: 180px;
+    background-size: cover;
+  }
+  .rel-one {
+    background-image: url(../img/img-tow.png);
+    width: 160px !important;
+    height: 180px;
+    background-size: cover;
+  }
+  .rel-tow {
+    background-image: url(../img/img-three.png);
+    width: 160px !important;
+    height: 180px;
+    background-size: cover;
+  }
+  .rel-three {
+    background-image: url(../img/img-four.png);
+    width: 160px !important;
+    height: 180px;
+    background-size: cover;
+  }
+  .text-rel p {
+    color: var(--neutral-0-white, #fff);
+    text-align: center;
+    font-family: "Inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    margin-bottom: 13px;
+  }
+  .text-rel {
+    display: flex;
+    height: 100%;
+    flex-flow: column-reverse;
+  }
+  .rel a {
+    text-decoration: none;
+  }
+  .rel-one a {
+    text-decoration: none;
+  }
+  .rel-tow a {
+    text-decoration: none;
+  }
+  .rel-three a {
+    text-decoration: none;
+  }
+  .rel-row {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 60px;
+  }
+  /***************************************************pop****************************************************/
+  .btn-pop {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+  }
+  .btn-pop button {
+    display: inline-flex;
+    padding: 14px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    background: #fafafb;
+    border: 1px solid #fafafb;
+    color: var(--text-secondary-text, #808080);
+    text-align: center;
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; /* 28px */
+  }
+  .btn-pop .btn-red {
+    display: inline-flex;
+    padding: 14px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    background: var(--pink-400-default, #ed4d55);
+    border: 1px solid #ed4d55;
+    color: var(--neutral-0-white, #fff);
+    text-align: center;
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+  }
+  .text-card-pop h5 {
+    color: var(--text-main-text, #121212);
+    font-family: "Inter";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    margin-top: 8px;
+    margin-bottom: 9px;
+  }
+  .text-card-pop span {
+    color: var(--pink-400-default, #ed4d55);
+    font-family: "Inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+  }
+  .text-card-pop p {
+    color: var(--text-secondary-text, #808080);
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin-top: 11px;
+  }
+  .pop-col {
+    width: 334px !important;
+    height: 382px !important;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: var(--neutral-0-white, #fff);
+    box-shadow: 0px 8px 16px -6px rgba(20, 23, 26, 0.04),
+      0px 6px 8px -6px rgba(20, 23, 26, 0.06);
+    padding: 0 !important;
+  }
+
+  .pop-card-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 48px;
+  }
+  .pop-btn-last button {
+    display: inline-flex;
+    height: 44px;
+    padding: 16px 56px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: var(--neutral-0-white, #fff);
+    text-align: center;
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    border-radius: 30px;
+    background: var(--pink-400-default, #ed4d55);
+    border: 1px solid #ed4d55;
+  }
+  .pop-btn-last {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  /******************************************************cheap***************************************************/
+  .text-cheap {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  .text-cheap h5 {
+    color: var(--text-main-text, #121212);
+    font-family: "Inter";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+  }
+  .text-cheap p {
+    color: var(--text-secondary-text, #808080);
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+  }
+  .cheap-btn {
+    display: flex;
+    flex-flow: column-reverse;
+    margin-bottom: 17px;
+  }
+  .cheap-btn button {
+    display: inline-flex;
+    padding: 14px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    background: var(--pink-400-default, #ed4d55);
+    border: 1px solid #ed4d55;
+    color: var(--neutral-0-white, #fff);
+    text-align: center;
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+  }
+  .cheap-rel {
+    width: 160px !important;
+    height: 220px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 50%,
+        rgba(0, 0, 0, 0.6) 100%
+      ),
+      url(../img/cheap1.png), lightgray 50% / cover no-repeat;
+    background-size: cover;
+  }
+  .cheap-rel-one {
+    width: 160px !important;
+    height: 220px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 50%,
+        rgba(0, 0, 0, 0.6) 100%
+      ),
+      url(../img/cheap2.png), lightgray 50% / cover no-repeat;
+    background-size: cover;
+  }
+  .cheap-rel-tow {
+    width: 160px !important;
+    height: 220px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 50%,
+        rgba(0, 0, 0, 0.6) 100%
+      ),
+      url(../img/cheap3.png), lightgray 50% / cover no-repeat;
+    background-size: cover;
+  }
+  .cheap-rel-three {
+    width: 160px !important;
+    height: 220px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 50%,
+        rgba(0, 0, 0, 0.6) 100%
+      ),
+      url(../img/cheap4.png), lightgray 50% / cover no-repeat;
+    background-size: cover;
+  }
+  .cheap-row {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 60px;
+  }
+  .text-cheap-rel {
+    display: flex;
+    height: 100%;
+    flex-flow: column-reverse;
+    padding-bottom: 14px;
+    margin-left: 0px;
+  }
+  .cheap-rel a {
+    text-decoration: none;
+  }
+  .cheap-rel-one a {
+    text-decoration: none;
+  }
+  .cheap-rel-tow a {
+    text-decoration: none;
+  }
+  .cheap-rel-three a {
+    text-decoration: none;
+  }
+  .text-cheap-rel h5 {
+    color: var(--neutral-0-white, #fff);
+    font-family: "Inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    margin-bottom: 10px;
+  }
+  .text-cheap-rel span {
+    color: var(--neutral-0-white, #fff);
+    font-family: "Inter";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+  }
+  /****************************************** btn-responsive**************************************************/
+  .cheap-btn-last {
+    display: flex;
+    justify-content: center;
+  }
+  .cheap-btn-last button {
+    display: inline-flex;
+    height: 44px;
+    padding: 16px 56px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    background: var(--pink-400-default, #ed4d55);
+    border: 1px solid #ed4d55;
+    color: var(--neutral-0-white, #fff);
+    text-align: center;
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+  }
+}
 /*********************************************************************8XX-Large devices (larger desktops, 1400px and up)*/
 /*********************************************************************8XX-Large devices (larger desktops, 1400px and up)*/
 /*********************************************************************8XX-Large devices (larger desktops, 1400px and up)*/
@@ -235,6 +694,7 @@
     font-weight: 500;
     line-height: 140%;
     margin-top: 8px;
+    margin-bottom: 8px;
   }
   .text-card-pop span {
     color: var(--pink-400-default, #ed4d55);
@@ -271,6 +731,7 @@
   }
   .pop-btn-last button {
     display: inline-flex;
+    height: 56px;
     padding: 14px 40px;
     justify-content: center;
     align-items: center;
@@ -293,6 +754,7 @@
   /******************************************************cheap***************************************************/
   .text-cheap {
     display: flex;
+    text-align: start;
     justify-content: space-between;
     margin-bottom: 51px;
   }
