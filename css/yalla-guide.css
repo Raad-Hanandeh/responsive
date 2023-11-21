@@ -2,6 +2,17 @@ body {
   font-family: "Inter", sans-serif;
   font-family: "Poppins", sans-serif;
 }
+.m {
+  color: var(--neutral-0-white, #5137a6);
+  font-family: "Poppins";
+  font-size: 20.936px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.nav-link {
+  text-transform: capitalize;
+}
 /*************************************************************responsive****************************************************/
 /*************************************************************responsive****************************************************/
 /*************************************************************responsive****************************************************/
@@ -46,9 +57,9 @@ body {
     display: flex;
     justify-content: center;
   }
-  .navbar-nav li :hover {
+  /* .navbar-nav li :hover {
     color: #fff;
-  }
+  } */
   .menu {
     font-family: "Inter";
     font-size: 24px;
@@ -508,6 +519,11 @@ body {
   .iicon {
     margin-left: 0;
   }
+  .iicon i {
+    width: 20px;
+    height: 20px;
+  }
+
   .list-icon {
     display: flex;
     justify-content: center;
@@ -518,8 +534,9 @@ body {
     color: #808080;
   }
   .crghite {
-    display: block;
+    display: flex;
     text-align: center;
+    flex-flow: column-reverse;
   }
   .crghite p {
     color: var(--text-secondary-text, #808080);
@@ -536,6 +553,7 @@ body {
     font-style: normal;
     font-weight: 500;
     line-height: 140%;
+    margin-bottom: 33px;
   }
 }
 
@@ -543,7 +561,6 @@ body {
 /*************************************************************res (0-375)******************************************************/
 /*************************************************************res (0-375)******************************************************/
 /*************************************************************res (0-375)******************************************************/
-
 @media (max-width: 375px) {
   .first-div {
     color: var(--neutral-0-white, #5137a6);
@@ -584,6 +601,13 @@ body {
     display: flex;
     justify-content: center;
   }
+  /* .navbar-nav li :hover {
+    color: #fff;
+  } */
+  .menu {
+    font-family: "Inter";
+    font-size: 24px;
+  }
   /******************************************************main text res*******************************************************/
   .main-text h5 {
     color: var(--text-main-text, #121212);
@@ -611,7 +635,7 @@ body {
   }
   .form {
     margin: auto;
-    width: 200px;
+    width: 336px;
     height: 48px;
     display: flex;
     padding: 6px 6px 6px 14px;
@@ -624,7 +648,7 @@ body {
   }
   .form a {
     display: flex;
-    padding: 4px 10px;
+    padding: 8px 16px;
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -633,21 +657,21 @@ body {
     color: var(--neutral-0-white, #fff);
     text-align: center;
     font-family: "Inter";
-    font-size: 10px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: 140%;
     text-decoration: none;
   }
   .form input {
-    width: 100px;
-    height: 15px;
+    width: 160px;
+    height: 20px;
   }
   ::placeholder {
     color: var(--text-secondary-text, #808080);
     text-align: center;
     font-family: "Inter";
-    font-size: 8px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
   }
@@ -829,7 +853,7 @@ body {
     flex-flow: column;
     justify-content: end;
     padding-bottom: 32px;
-    margin-left: 16px;
+    margin-left: 12px;
   }
   .bg-card-tow {
     width: 334px;
@@ -909,7 +933,7 @@ body {
   .stayy {
     text-align: start;
     margin-top: 53px;
-    margin-left: 18px;
+    margin-left: 21px;
   }
   .stayy h5 {
     color: var(--neutral-0-white, #fff);
@@ -1039,6 +1063,11 @@ body {
   .iicon {
     margin-left: 0;
   }
+  .iicon i {
+    width: 20px;
+    height: 20px;
+  }
+
   .list-icon {
     display: flex;
     justify-content: center;
@@ -1049,8 +1078,9 @@ body {
     color: #808080;
   }
   .crghite {
-    display: block;
+    display: flex;
     text-align: center;
+    flex-flow: column-reverse;
   }
   .crghite p {
     color: var(--text-secondary-text, #808080);
@@ -1067,8 +1097,10 @@ body {
     font-style: normal;
     font-weight: 500;
     line-height: 140%;
+    margin-bottom: 33px;
   }
 }
+
 /*************************************************************tablet******************************************************/
 /*************************************************************tablet******************************************************/
 /*************************************************************tablet******************************************************/
@@ -1077,7 +1109,7 @@ body {
 @media (min-width: 768px) {
   /**********************************************************nav***************************************************/
   .padding-nav {
-    padding: 0 40px;
+    padding: 0 20px;
   }
   /* .container-fluid {
     padding: 0 20px;
@@ -1522,14 +1554,14 @@ body {
   /******************************************************footer************************************************************/
   .footer {
     padding-top: 39px;
-    margin-top: 80px;
+    margin-top: 60px;
     text-align: center;
   }
   .footer ul li a {
     text-decoration: none;
-    color: var(--text-secondary-text, #808080);
+    color: var(--text-secondary-text, #ccc);
     font-family: "Inter";
-    font-size: 18px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: 140%;
@@ -1537,6 +1569,8 @@ body {
   .footer ul li a button {
     height: 52px;
     padding: 8px 56px;
+    justify-content: center;
+    align-items: center;
     gap: 10px;
     border-radius: 26px;
     background: var(--neutral-0-white, #fff);
@@ -1548,7 +1582,6 @@ body {
     line-height: 140%;
     border: 1px solid #fff;
   }
-
   .footer ul li {
     list-style: none;
     margin: 16px 0;
@@ -1569,15 +1602,37 @@ body {
     font-weight: 700;
     line-height: normal;
   }
+  .icon {
+    width: 34px;
+    height: 34px;
+    background-color: #fff;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+  }
+  .iicon {
+    margin-left: 0;
+  }
+  .iicon i {
+    width: 20px;
+    height: 20px;
+  }
 
+  .list-icon {
+    display: flex;
+    justify-content: center;
+  }
   hr {
     margin-top: 52px;
     margin-bottom: 32px;
     color: #808080;
   }
   .crghite {
-    display: block;
-    justify-content: center;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row;
   }
   .crghite p {
     color: var(--text-secondary-text, #808080);
@@ -1594,25 +1649,7 @@ body {
     font-style: normal;
     font-weight: 500;
     line-height: 140%;
-  }
-
-  /*********/
-  .icon {
-    width: 34px;
-    height: 34px;
-    background-color: #fff;
-    border-radius: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 10px;
-  }
-  .iicon {
-    margin-left: 0;
-  }
-  .list-icon {
-    display: flex;
-    justify-content: center;
+    margin-bottom: 33px;
   }
 }
 
@@ -1624,7 +1661,7 @@ body {
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
   .padding-nav {
-    padding: 0 40px;
+    padding: 0 20px;
   }
   /* .container-fluid {
     padding: 0 40px;
@@ -2084,7 +2121,7 @@ body {
   .footer ul li a button {
     display: flex;
     height: 52px;
-    padding: 12px 36px;
+    padding: 8px 56px;
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -2092,7 +2129,7 @@ body {
     background: var(--neutral-0-white, #fff);
     color: var(--text-main-text, #121212);
     font-family: "Inter";
-    font-size: 16px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 500;
     line-height: 140%;
@@ -2128,6 +2165,7 @@ body {
   .crghite {
     display: flex;
     justify-content: space-between;
+    flex-flow: row;
   }
   .crghite p {
     color: var(--text-secondary-text, #808080);
@@ -2681,6 +2719,7 @@ body {
   .crghite {
     display: flex;
     justify-content: space-between;
+    flex-flow: row;
   }
   .crghite p {
     color: var(--text-secondary-text, #808080);
