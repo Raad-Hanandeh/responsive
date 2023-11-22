@@ -3724,25 +3724,25 @@
   }
   .rel {
     background-image: url(../img/img-one.png);
-    width: 276px !important;
+    width: 276px;
     height: 312px;
     background-size: cover;
   }
   .rel-one {
     background-image: url(../img/img-tow.png);
-    width: 276px !important;
+    width: 276px;
     height: 312px;
     background-size: cover;
   }
   .rel-tow {
     background-image: url(../img/img-three.png);
-    width: 276px !important;
+    width: 276px;
     height: 312px;
     background-size: cover;
   }
   .rel-three {
     background-image: url(../img/img-four.png);
-    width: 276px !important;
+    width: 276px;
     height: 312px;
     background-size: cover;
   }
