@@ -3929,7 +3929,7 @@
     line-height: 140%;
   }
   .cheap-rel {
-    width: 276px !important;
+    width: 276px;
     height: 378px;
     flex-shrink: 0;
     border-radius: 16px;
@@ -3941,7 +3941,7 @@
       url(../img/cheap1.png), lightgray 50% / cover no-repeat;
   }
   .cheap-rel-one {
-    width: 276px !important;
+    width: 276px;
     height: 378px;
     flex-shrink: 0;
     border-radius: 16px;
@@ -3953,7 +3953,7 @@
       url(../img/cheap2.png), lightgray 50% / cover no-repeat;
   }
   .cheap-rel-tow {
-    width: 276px !important;
+    width: 276px;
     height: 378px;
     flex-shrink: 0;
     border-radius: 16px;
@@ -3965,7 +3965,7 @@
       url(../img/cheap3.png), lightgray 50% / cover no-repeat;
   }
   .cheap-rel-three {
-    width: 276px !important;
+    width: 276px;
     height: 378px;
     flex-shrink: 0;
     border-radius: 16px;
@@ -4135,7 +4135,7 @@
     margin-bottom: 120px;
   }
   .compare-rel {
-    width: 276px !important;
+    width: 276px;
     height: 378px;
     flex-shrink: 0;
     border-radius: 16px;
@@ -4143,7 +4143,7 @@
     background-size: cover;
   }
   .compare-rel-one {
-    width: 276px !important;
+    width: 276px;
     height: 378px;
     flex-shrink: 0;
     border-radius: 16px;
@@ -4151,7 +4151,7 @@
     background-size: cover;
   }
   .compare-rel-tow {
-    width: 276px !important;
+    width: 276px;
     height: 378px;
     flex-shrink: 0;
     border-radius: 16px;
@@ -4159,7 +4159,7 @@
     background-size: cover;
   }
   .compare-rel-three {
-    width: 276px !important;
+    width: 276px;
     height: 378px;
     flex-shrink: 0;
     border-radius: 16px;
