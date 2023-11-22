@@ -2803,6 +2803,7 @@ body {
     font-style: normal;
     font-weight: 500;
     line-height: 140%;
+    text-transform: capitalize;
   }
 
   .mid-div {

@@ -218,7 +218,7 @@
   }
   .bg-team-row {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
   }
   .bg-team {
     width: 160px;
@@ -627,7 +627,7 @@
   }
   .bg-team-row {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
   }
   .bg-team {
     width: 160px;
