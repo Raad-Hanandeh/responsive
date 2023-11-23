@@ -528,6 +528,10 @@
     height: 372px;
     transform: translateY(0px);
   }
+  .img-phone {
+    display: flex;
+    justify-content: center;
+  }
   /*******************************************users***********************************************************/
   .text-users h5 {
     color: var(--text-main-text, #121212);
