@@ -2202,7 +2202,7 @@
   .footer {
     padding-top: 39px;
     margin-top: 60px;
-    text-align: center;
+    text-align: start;
   }
   .footer ul li a {
     text-decoration: none;
