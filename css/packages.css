@@ -744,6 +744,7 @@
     justify-content: center;
   }
   hr {
+    height: 6px;
     margin-top: 52px;
     margin-bottom: 32px;
     color: #808080;
@@ -1495,6 +1496,7 @@
     justify-content: center;
   }
   hr {
+    height: 6px;
     margin-top: 52px;
     margin-bottom: 32px;
     color: #808080;
@@ -2241,6 +2243,7 @@
     justify-content: center;
   }
   hr {
+    height: 6px;
     margin-top: 52px;
     margin-bottom: 32px;
     color: #808080;
@@ -3700,6 +3703,7 @@
   }
 
   hr {
+    height: 6px;
     margin-top: 52px;
     margin-bottom: 32px;
     color: #808080;
@@ -3786,6 +3790,10 @@
     background-color: transparent;
     color: #fff;
     border: 1px solid #fff;
+  }
+  #prev:hover {
+    background: #ed4d55;
+    border: 1px solid #ed4d55;
   }
   /********************************************************nav***********************************/
   .padding-nav {
@@ -3909,6 +3917,7 @@
     height: 312px;
     background-size: cover;
   }
+
   .rel-one {
     background-image: url(../img/img-tow.png);
     width: 276px;
@@ -4438,6 +4447,7 @@
   }
 
   hr {
+    height: 6px;
     margin-top: 52px;
     margin-bottom: 32px;
     color: #808080;

@@ -495,7 +495,6 @@
     font-weight: 600;
     line-height: 140%;
     margin-bottom: 16px;
-    margin-left: 10px;
   }
   .text-bg-red p {
     color: var(--neutral-0-white, #fff);
@@ -505,15 +504,15 @@
     font-weight: 500;
     line-height: 140%;
     margin-bottom: 32px;
-    margin-left: 10px;
   }
   .bg-red-row {
     display: flex;
     justify-content: center;
   }
   .img-bg-red {
-    margin-left: 10px;
+    margin-left: 0px;
     display: flex;
+    justify-content: center;
   }
   .img-bg-red img {
     width: 146px;
@@ -1261,7 +1260,6 @@
     font-weight: 600;
     line-height: 140%;
     margin-bottom: 16px;
-    margin-left: 10px;
   }
   .text-bg-red p {
     color: var(--neutral-0-white, #fff);
@@ -1271,15 +1269,14 @@
     font-weight: 500;
     line-height: 140%;
     margin-bottom: 32px;
-    margin-left: 10px;
   }
   .bg-red-row {
     display: flex;
     justify-content: center;
   }
   .img-bg-red {
-    margin-left: 10px;
     display: flex;
+    justify-content: center;
   }
   .img-bg-red img {
     width: 146px;
@@ -2026,7 +2023,9 @@
     justify-content: center;
   }
   .img-bg-red {
-    margin-left: 150px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
   }
   .img-bg-red img {
     width: 180px;
@@ -2035,9 +2034,6 @@
   }
   .img-appstore {
     margin: 0 8px;
-  }
-  .img-phone {
-    text-align: center;
   }
   .img-phone img {
     width: 450px;
@@ -2757,7 +2753,7 @@
     font-weight: 600;
     line-height: 140%;
     margin-bottom: 32px;
-    margin-left: 60px;
+    /* margin-left: 60px; */
   }
   .text-bg-red p {
     color: var(--neutral-0-white, #fff);
@@ -2767,15 +2763,15 @@
     font-weight: 400;
     line-height: 140%;
     margin-bottom: 50px;
-    margin-left: 60px;
+    /* margin-left: 60px; */
   }
   .bg-red-row {
     display: flex;
     justify-content: space-between;
   }
   .img-bg-red {
-    margin-left: 52px;
     display: flex;
+    justify-content: center;
   }
   .img-bg-red img {
     width: 180px;
@@ -2861,7 +2857,7 @@
   }
   .users-row {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-bottom: 120px;
   }
   .port-portrait {
@@ -3504,7 +3500,6 @@
     font-weight: 600;
     line-height: 140%;
     margin-bottom: 32px;
-    margin-left: 83px;
   }
   .text-bg-red p {
     color: var(--neutral-0-white, #fff);
@@ -3514,26 +3509,19 @@
     font-weight: 400;
     line-height: 140%;
     margin-bottom: 50px;
-    margin-left: 83px;
   }
   .bg-red-row {
     display: flex;
     justify-content: space-around;
-  }
-  .img-bg-red {
-    margin-left: 83px;
   }
   .img-bg-red img {
     width: 180px;
     height: 52px;
     flex-shrink: 0;
   }
-  .img-appstore {
-    margin: 0 8px;
-  }
   .img-phone {
     display: flex;
-    overflow-wrap: hidden;
+    justify-content: center;
   }
   .img-bg-red img {
     width: 180px;
@@ -4251,7 +4239,6 @@
 
   .text-bg-red {
     padding-top: 53px;
-    /* margin-left: 20px; */
     text-align: start;
   }
   .text-bg-red h5 {
@@ -4262,7 +4249,7 @@
     font-weight: 600;
     line-height: 140%;
     margin-bottom: 32px;
-    margin-left: 71px;
+    /* margin-left: 71px; */
   }
   .text-bg-red p {
     color: var(--neutral-0-white, #fff);
@@ -4272,15 +4259,14 @@
     font-weight: 400;
     line-height: 140%;
     margin-bottom: 50px;
-    margin-left: 71px;
   }
   .bg-red-row {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
   }
   .img-bg-red {
-    margin-left: 63px;
     display: flex;
+    justify-content: center;
   }
   .img-bg-red img {
     width: 180px;
@@ -4288,7 +4274,10 @@
     flex-shrink: 0;
   }
   .img-appstore {
-    margin: 0 8px;
+    margin: 0 16px;
+  }
+  .img-appstore {
+    margin-left: 0px;
   }
   .img-phone img {
     width: 510px;
